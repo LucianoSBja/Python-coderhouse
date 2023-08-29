@@ -4,10 +4,10 @@ cadena = "acitametaM ,5.8 ,otipeP ordeP"
 cadena_volteada = cadena[::-1]
 
 # Paso 2: Extraer nombre y apellido
-nombre_alumno = cadena_volteada.split(',')[1].strip()
+nombre_alumno = cadena_volteada.split(',')[0].strip()
 
 # Paso 3: Extraer la nota
-nota = cadena_volteada.split(',')[0].strip()
+nota =  cadena_volteada.split(',')[1].strip()
 
 # Paso 4: Extraer la materia
 materia = cadena_volteada.split(',')[2].strip()
