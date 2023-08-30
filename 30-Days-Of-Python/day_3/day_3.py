@@ -168,6 +168,10 @@ except ValueError:
     print("Cannot convert '9.8' to an integer.")
 
 '''21.Escriba un script que solicite al usuario que ingrese horas y tarifas por hora. Calcular el pago de la persona?
+
+Enter hours: 40
+Enter rate per hour: 28
+Your weekly earning is 1120
 ''' 
 hours_worked = float(input("Enter hours worked: "))
 rate_per_hour = float(input("Enter rate per hour: "))
@@ -175,7 +179,12 @@ rate_per_hour = float(input("Enter rate per hour: "))
 pay = hours_worked * rate_per_hour
 print(f"Pay: {pay}")
 
-'''Escriba un script que solicite al usuario que ingrese varios años. Calcule la cantidad de segundos que una persona puede vivir. Supongamos que una persona puede vivir cien años'''
+'''Escriba un script que solicite al usuario que ingrese varios años. Calcule la cantidad de segundos que una persona puede vivir. Supongamos que una persona puede vivir cien años
+
+Enter number of years you have lived: 100
+You have lived for 3153600000 seconds.
+
+'''
 years = int(input("Enter the number of years: "))
 seconds_in_a_year = 365 * 24 * 60 * 60
 maximum_years = 100
@@ -189,7 +198,14 @@ if years > 0:
 else:
     print("Please enter a valid number of years greater than 0.")
 
-'''Escriba un script de Python que muestre la siguiente tabla'''
+'''Escriba un script de Python que muestre la siguiente tabla
+
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
+'''
 
 print("Number   |   Squared   |   Cubed")
 print("-------- | ----------- | -------")
