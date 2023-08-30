@@ -1,5 +1,5 @@
 # Day 2: 30 Days of python programming
-
+import math
 # Variables in Python
 
 first_name = 'Luciano Ezequiel'
@@ -58,8 +58,38 @@ num_one = 5
 num_two = 4
 
 total = num_one + num_two
+print('Suma de numero', total)
+resta = num_one - num_two
+print('Resta de numero', resta)
+multi = num_one * num_two
+print('Resta de multiplica', multi)
+divide = num_one / num_two
+print('Resta de divide', divide)
+resto = num_one % num_two
+print('Resto de divicion', resto)
+potencia =  num_one ** num_two
+print('Potencia de numero', potencia)
+floor_division= num_one // num_two
+print('Fraccion ', floor_division)
 
 # 5.El radio de un círculo es de 30 metros.
-# 6.Use la función de entrada incorporada para obtener el nombre, apellido, país y edad de un usuario y almacene el valor en sus nombres de variables correspondientes
-# 7.Ejecute la ayuda ( 'keywords' ) en el shell de Python o en su archivo para verificar las palabras o palabras clave reservadas de Python
 
+radio = 30
+area_of_circle= math.pi * radio ** 2
+print("Area de circulo", round(area_of_circle))
+circun_of_circle = 2* math.pi * radio
+print("Circunferencia", circun_of_circle)
+
+
+radius = float(input("Ingrese el radio del círculo: "))
+area_of_circle = math.pi * radius ** 2
+print("El área del círculo es:", area_of_circle)
+# 6.Use la función de entrada incorporada para obtener el nombre, apellido, país y edad de un usuario y almacene el valor en sus nombres de variables correspondientes
+
+name = str(input('Diagem su nombre: '))
+last = str(input('Diagem su apellido: '))
+contry = str(input('Diagem su Pais: '))
+age = int(input('Diagem su edad: ')
+)
+persona1 = f'{name} {last} {contry} {age}'
+print(persona1)
