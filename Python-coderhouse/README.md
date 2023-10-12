@@ -13,7 +13,7 @@ Curso de Coderhouse - Python
 9. ## Funciones I
 10. ## Funciones II
 11. ## Excepciones
-12. ##
-13. ##
-14. ##
-15. ##
+12. ## Programacion Orientada a Objetos I
+13. ## Programacion Orientada a Objetos II
+14. ## Herencias
+15. ## Script, Modulos y Paquetes
