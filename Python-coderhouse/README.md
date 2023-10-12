@@ -10,9 +10,9 @@ Curso de Coderhouse - Python
 6. ## Conjuntos y diccionarios
 7. ## Metodos de coleccion
 8. ## Manejo de archivos y datos
-9. ##
-10. ##
-11. ##
+9. ## Funciones I
+10. ## Funciones II
+11. ## Excepciones
 12. ##
 13. ##
 14. ##
